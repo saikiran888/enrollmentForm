@@ -1,0 +1,127 @@
+
+html,body{
+    background-color:rgb(241, 241, 234);  
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    
+}
+/*--------------------------- header styling -------------------------------*/
+h4{
+background-color: hsl(160, 75%, 55%);
+text-align: center;
+color: azure;
+padding: 0.5em;
+}
+
+/* -------------------------------------form styling----------------------- */
+.form{
+    padding-left: 3em;
+}
+
+div{
+    padding: 0.3em;
+}
+
+.leftcontent{
+    float: left;
+    padding:0 30px;
+
+}
+
+.rightcontent{
+    height: inherit;
+    padding:0 30px 0 60px;
+    border-left: 3px solid hsl(160, 80%, 52%);
+    
+}
+button{
+    margin-right:1em ;
+}
+
+/* ---------------------------------------------------table styling--------------------- */
+tr:nth-child(odd)>th{
+   
+    background-color: rgb(149, 235, 51);
+    color: rgb(252, 252, 252);
+}
+tr:nth-child(even){
+    
+
+    background-color: rgb(230, 255, 200);
+    color:black;
+    
+}
+tr:nth-child(odd){
+    
+    background-color: rgb(255, 255, 255);
+    color:black;
+    
+}
+.table,tr,td,th{
+    border: 2px solid greenyellow;
+}
+
+.table{
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    word-break: break-all;
+    
+}
+
+img{
+    width: 7em;
+
+ 
+}
+/* ---------scroll bar----------- */
+.table-wrapper-scroll-y{
+    display: block;
+}
+.my-custom-scrollbar{
+    position: relative;
+    height: 425px;
+    overflow: auto;
+}
+.imagetd{
+    height: 100px;
+    width: 7em;
+}
+
+
+/* -------------------animation------------------- */
+.visible{
+   
+    border: 3px solid rgb(226, 128, 128);
+    animation: fadein ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/* -----------------------------footer styling-------------------- */
+div .footer {
+    background-color: hsl(161, 67%, 52%);
+text-align: center;
+color: azure;
+left:0;
+bottom: 0;
+width: 100%;
+height: 30px;
+position: fixed;
+margin-top: 1em;
+
+}
+
+h5{
+    text-align:center;
+}
